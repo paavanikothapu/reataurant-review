@@ -15,10 +15,10 @@
 	<!-- Beginning header -->
 	<header>
 		<!-- Beginning nav -->
-		<nav>
+		<nav aria-label="breadcrumb" class="breadcrumb">
 			<h1><a href="/">Restaurant Reviews</a></h1>
 		</nav><!-- Beginning breadcrumb -->
-		<ul id="breadcrumb">
+		<ul id="breadcrumb"aria-current="page" aria-label="breadcrumb">
 			<li>
 				<a href="/">Home</a>
 			</li>
@@ -26,16 +26,16 @@
 		<!-- End nav -->
 	</header><!-- End header -->
 	<!-- Beginning main -->
-	<main id="maincontent" role="application">
+	<main id="maincontent" >
 		<!-- Beginning map -->
 		<section id="map-container">
-			<div id="map"></div>
+			<div id="map" role="application"></div>
 		</section><!-- End map -->
 		<!-- Beginning restaurant -->
 		<section id="restaurant-container">
 			<!-- child-a -->
 			<div class="child-a">
-				<h1 id="restaurant-name"></h1><img alt="img" id="restaurant-img">
+				<h2 id="restaurant-name"></h2><img alt="img" id="restaurant-img">
 				<p id="restaurant-cuisine"></p>
 			</div><!-- child-b -->
 			<div class="child-b">
